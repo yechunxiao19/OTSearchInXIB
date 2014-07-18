@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCEFA48C1978B57D005ABE27 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEFA48B1978B57D005ABE27 /* AppKit.framework */; };
+		BCEFA48E1978B57D005ABE27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEFA48D1978B57D005ABE27 /* Foundation.framework */; };
+		BCEFA4941978B57D005ABE27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCEFA4921978B57D005ABE27 /* InfoPlist.strings */; };
+		BCEFA4971978B57D005ABE27 /* OTSearchInXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEFA4961978B57D005ABE27 /* OTSearchInXIB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCEFA4881978B57D005ABE27 /* SearchInXIB.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchInXIB.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEFA48B1978B57D005ABE27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BCEFA48D1978B57D005ABE27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCEFA4911978B57D005ABE27 /* SearchInXIB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchInXIB-Info.plist"; sourceTree = "<group>"; };
+		BCEFA4931978B57D005ABE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCEFA4951978B57D005ABE27 /* OTSearchInXIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTSearchInXIB.h; sourceTree = "<group>"; };
+		BCEFA4961978B57D005ABE27 /* OTSearchInXIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTSearchInXIB.m; sourceTree = "<group>"; };
+		BCEFA4981978B57D005ABE27 /* SearchInXIB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchInXIB-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEFA4851978B57D005ABE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFA48C1978B57D005ABE27 /* AppKit.framework in Frameworks */,
+				BCEFA48E1978B57D005ABE27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCEFA47F1978B57D005ABE27 = {
+			isa = PBXGroup;
+			children = (
+				BCEFA48F1978B57D005ABE27 /* SearchInXIB */,
+				BCEFA48A1978B57D005ABE27 /* Frameworks */,
+				BCEFA4891978B57D005ABE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEFA4891978B57D005ABE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFA4881978B57D005ABE27 /* SearchInXIB.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEFA48A1978B57D005ABE27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFA48B1978B57D005ABE27 /* AppKit.framework */,
+				BCEFA48D1978B57D005ABE27 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEFA48F1978B57D005ABE27 /* SearchInXIB */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFA4951978B57D005ABE27 /* OTSearchInXIB.h */,
+				BCEFA4961978B57D005ABE27 /* OTSearchInXIB.m */,
+				BCEFA4901978B57D005ABE27 /* Supporting Files */,
+			);
+			path = SearchInXIB;
+			sourceTree = "<group>";
+		};
+		BCEFA4901978B57D005ABE27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFA4911978B57D005ABE27 /* SearchInXIB-Info.plist */,
+				BCEFA4921978B57D005ABE27 /* InfoPlist.strings */,
+				BCEFA4981978B57D005ABE27 /* SearchInXIB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEFA4871978B57D005ABE27 /* SearchInXIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEFA49B1978B57D005ABE27 /* Build configuration list for PBXNativeTarget "SearchInXIB" */;
+			buildPhases = (
+				BCEFA4841978B57D005ABE27 /* Sources */,
+				BCEFA4851978B57D005ABE27 /* Frameworks */,
+				BCEFA4861978B57D005ABE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchInXIB;
+			productName = SearchInXIB;
+			productReference = BCEFA4881978B57D005ABE27 /* SearchInXIB.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEFA4801978B57D005ABE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Oolong Tea";
+			};
+			buildConfigurationList = BCEFA4831978B57D005ABE27 /* Build configuration list for PBXProject "SearchInXIB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCEFA47F1978B57D005ABE27;
+			productRefGroup = BCEFA4891978B57D005ABE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEFA4871978B57D005ABE27 /* SearchInXIB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEFA4861978B57D005ABE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFA4941978B57D005ABE27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEFA4841978B57D005ABE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFA4971978B57D005ABE27 /* OTSearchInXIB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCEFA4921978B57D005ABE27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEFA4931978B57D005ABE27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEFA4991978B57D005ABE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCEFA49A1978B57D005ABE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCEFA49C1978B57D005ABE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchInXIB/SearchInXIB-Prefix.pch";
+				INFOPLIST_FILE = "SearchInXIB/SearchInXIB-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		BCEFA49D1978B57D005ABE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchInXIB/SearchInXIB-Prefix.pch";
+				INFOPLIST_FILE = "SearchInXIB/SearchInXIB-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEFA4831978B57D005ABE27 /* Build configuration list for PBXProject "SearchInXIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEFA4991978B57D005ABE27 /* Debug */,
+				BCEFA49A1978B57D005ABE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEFA49B1978B57D005ABE27 /* Build configuration list for PBXNativeTarget "SearchInXIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEFA49C1978B57D005ABE27 /* Debug */,
+				BCEFA49D1978B57D005ABE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEFA4801978B57D005ABE27 /* Project object */;
+}
