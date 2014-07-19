@@ -11,6 +11,8 @@
 		BCEFA48E1978B57D005ABE27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEFA48D1978B57D005ABE27 /* Foundation.framework */; };
 		BCEFA4941978B57D005ABE27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCEFA4921978B57D005ABE27 /* InfoPlist.strings */; };
 		BCEFA4971978B57D005ABE27 /* OTSearchInXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEFA4961978B57D005ABE27 /* OTSearchInXIB.m */; };
+		BCEFA4A6197A1FE2005ABE27 /* OTWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEFA4A4197A1FE2005ABE27 /* OTWindowController.m */; };
+		BCEFA4A7197A1FE2005ABE27 /* OTWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEFA4A5197A1FE2005ABE27 /* OTWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		BCEFA4951978B57D005ABE27 /* OTSearchInXIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTSearchInXIB.h; sourceTree = "<group>"; };
 		BCEFA4961978B57D005ABE27 /* OTSearchInXIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTSearchInXIB.m; sourceTree = "<group>"; };
 		BCEFA4981978B57D005ABE27 /* SearchInXIB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchInXIB-Prefix.pch"; sourceTree = "<group>"; };
+		BCEFA4A3197A1FE2005ABE27 /* OTWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTWindowController.h; sourceTree = "<group>"; };
+		BCEFA4A4197A1FE2005ABE27 /* OTWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTWindowController.m; sourceTree = "<group>"; };
+		BCEFA4A5197A1FE2005ABE27 /* OTWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,9 @@
 				BCEFA4951978B57D005ABE27 /* OTSearchInXIB.h */,
 				BCEFA4961978B57D005ABE27 /* OTSearchInXIB.m */,
 				BCEFA4901978B57D005ABE27 /* Supporting Files */,
+				BCEFA4A3197A1FE2005ABE27 /* OTWindowController.h */,
+				BCEFA4A4197A1FE2005ABE27 /* OTWindowController.m */,
+				BCEFA4A5197A1FE2005ABE27 /* OTWindowController.xib */,
 			);
 			path = SearchInXIB;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEFA4A7197A1FE2005ABE27 /* OTWindowController.xib in Resources */,
 				BCEFA4941978B57D005ABE27 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEFA4A6197A1FE2005ABE27 /* OTWindowController.m in Sources */,
 				BCEFA4971978B57D005ABE27 /* OTSearchInXIB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +293,7 @@
 				BCEFA49D1978B57D005ABE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>482062A1-5207-4919-9A53-8230FDAECA9F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SearchInXIB</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B96EA201-DEAE-436C-8F9B-7887CE178831</key>
+		<string>https://github.com/yechunxiao19/OTSearchInXIB.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SearchInXIB/SearchInXIB.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B96EA201-DEAE-436C-8F9B-7887CE178831</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yechunxiao19/OTSearchInXIB.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B96EA201-DEAE-436C-8F9B-7887CE178831</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B96EA201-DEAE-436C-8F9B-7887CE178831</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OTSearchInXIB</string>
+		</dict>
+	</array>
+</dict>
+</plist>
