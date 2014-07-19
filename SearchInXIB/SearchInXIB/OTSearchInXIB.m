@@ -65,31 +65,6 @@ static OTSearchInXIB *sharedPlugin;
         [self.windowController.window makeKeyAndOrderFront:nil];
     }
     
-    NSTask *task;
-    task = [[NSTask alloc] init];
-    [task setLaunchPath: @"/usr/bin/grep"];
-    
-    NSArray *arguments;
-    arguments = [NSArray arrayWithObjects: @"-i", @"-r", @"--include=*.xib", @"15分钟内完成支付",@"/Users/angelshinehh/Documents/DPgit/iphone-nova/",nil];
-    [task setArguments: arguments];
-    
-    NSPipe *pipe;
-    pipe = [NSPipe pipe];
-    [task setStandardOutput: pipe];
-    
-    [task launch];
-    
-    NSData *data;
-    data = [[pipe fileHandleForReading] availableData];
-    
-    NSString *string;
-    string = [[NSString alloc] initWithData: data
-                                   encoding: NSUTF8StringEncoding];
-    
-    NSLog (@"got\n%@", string);
-    
-    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"OTHomeViewController" ofType:@"xib"];
-    NSLog(@"\n%@",plistPath);
 }
 
 - (void)dealloc

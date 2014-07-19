@@ -11,8 +11,10 @@
 @interface OTWindowController : NSWindowController
 
 @property (nonatomic, weak) IBOutlet NSSearchField *searchField;
-@property (nonatomic, weak) IBOutlet NSPopUpButton *locationButton;
+@property (nonatomic, weak) IBOutlet NSPathControl *locationButton;
 @property (nonatomic, weak) IBOutlet NSButton *findButton;
 @property (nonatomic) IBOutlet NSTextView *resultTextView;
+
+- (IBAction)find:(id)sender;
 
 @end
