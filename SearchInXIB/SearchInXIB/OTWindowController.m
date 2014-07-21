@@ -7,8 +7,11 @@
 //
 
 #import "OTWindowController.h"
+#import "XToDoModel.h"
 
 @interface OTWindowController ()
+
+@property (nonatomic) NSString *projectDir;
 
 @end
 
@@ -28,11 +31,13 @@
     [super windowDidLoad];
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+    NSString* filePath = [[XToDoModel currentWorkspaceDocument].workspace.representingFilePath.fileURL path];
+    self.projectDir = [filePath stringByDeletingLastPathComponent];
+    NSLog(@"%@", self.projectDir);
 }
 
 - (IBAction)find:(id)sender{
     
-    NSString *locationPath = [self.locationButton.URL path];
     NSString *searchContent = [self.searchField stringValue];
     
     NSTask *task;
@@ -40,7 +45,7 @@
     [task setLaunchPath: @"/usr/bin/grep"];
     
     NSArray *arguments;
-    arguments = [NSArray arrayWithObjects: @"-i", @"-r", @"--include=*.xib", searchContent,locationPath,nil];
+    arguments = [NSArray arrayWithObjects: @"-i", @"-r", @"--include=*.xib", searchContent,self.projectDir,nil];
     [task setArguments: arguments];
     
     NSPipe *pipe;
